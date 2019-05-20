@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+}
+
+.head {
+    margin-left: 0;
+    position: fixed;
+    background-color: blue;
+    top: 0;
+    width: 100%;
+    height: 66px;
+}
+
+.link {
+    margin-left: 0;
+    position: fixed;
+    background-color: black;
+    top: 66px;
+    width: 100%;
+    height: 14px;
+    padding: 16px;
+    /*padding: 17px;*/
+}
+
+.link a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.left {
+    background-color: beige;
+    width: 15%;
+    /*height: calc(100% - 130px);*/
+    min-height: 1000px;
+    margin-top: 112px;
+    float: left;
+    height: 500px;
+}
+.left a{
+    color: black;
+    /*padding-bottom: 100px;*/
+    text-decoration: none;
+
+}
+
+.right {
+    background-color: chartreuse;
+    width: 25%;
+    /*height: calc(100% - 130px);*/
+    /*height: 500px;*/
+    min-height: 1000px;
+    margin-top: 112px;
+    float: left;
+}
+
+.right iframe {
+    width : 100%;
+    height :200px;
+    frameborder : "0" ;
+    border:0;
+}
+
+.content {
+    background-color: pink;
+    width: 60%;
+    /*height: calc(100% - 130px);*/
+    /*height: 500px;*/
+    min-height: 1000px;
+    margin-top: 112px;
+    float: left;
+    /*border:  chocolate so;*/
+}
+
+.bottom {
+    bottom: 0;
+    background-color: blue;
+    width: 100%;
+    height: 60px;
+    clear: both;
+}
+
+.search {
+    /*align-content: end;*/
+    text-decoration: none;
+    float: right;
+}
+
+
+/*.search {*/
+/*}*/
+.search_value {
+    /*align-content: end;*/
+    text-decoration: none;
+    float: right;
+}
+
+.map {
+    width : 100%;
+    height :200px;
+    /*position: absolute;*/
+    /*position: relative;*/
+    bottom: 0;
+
+}
+
+.left-1 {
+    width: 100%;
+    height: 400px;
+}
